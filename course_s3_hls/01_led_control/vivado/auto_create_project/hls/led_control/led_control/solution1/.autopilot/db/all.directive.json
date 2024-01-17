@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "led_control",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "led_control"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "led_control",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "led_control"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/csynth.tcl",
+    "sourceLine": 15,
+    "success": true
+  }
+]

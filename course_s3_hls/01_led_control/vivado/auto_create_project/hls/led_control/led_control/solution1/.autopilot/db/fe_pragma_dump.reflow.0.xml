@@ -1,0 +1,10 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<1>::ap_int<1, true>(ap_int_base<1, true> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/home/alinx/Xilinx/Vitis_HLS/2023.1/common/technology/autopilot/etc/ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi1ELb1EEC2EDq1_i" off="0" region="0" recursive="0"/>
+<pragma file="source/led_control.cpp" line="5" pragmaType="interface" parentfunction="led_control" mode="ap_none" port="led" name="" register="0"/>
+<pragma file="source/led_control.cpp" line="6" pragmaType="interface" parentfunction="led_control" mode="ap_ctrl_hs" port="return" name=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<1>::ap_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, true>::operator~() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+</pragmas>

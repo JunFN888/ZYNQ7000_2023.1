@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "led_control.cpp",
+    "fileloc": 3,
+    "instructions": 21,
+    "name": "led_control",
+    "stores": {
+      "T": 2
+    },
+    "total_instructions": 21
+  }
+}

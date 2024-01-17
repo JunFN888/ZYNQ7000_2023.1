@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln8_fu_78_p2" SOURCE="source/led_control.cpp:8" VARIABLE="icmp_ln8" MODULE="led_control" LOOP="VITIS_LOOP_8_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="i_2_fu_84_p2" SOURCE="source/led_control.cpp:8" VARIABLE="i_2" MODULE="led_control" LOOP="VITIS_LOOP_8_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln10_fu_90_p2" SOURCE="source/led_control.cpp:10" VARIABLE="icmp_ln10" MODULE="led_control" LOOP="VITIS_LOOP_8_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln11_fu_96_p2" SOURCE="source/led_control.cpp:11" VARIABLE="xor_ln11" MODULE="led_control" LOOP="VITIS_LOOP_8_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op select" ID="" IMPL="auto_sel" LATENCY="0" OPTYPE="select" PRAGMA="" RTLNAME="select_ln10_fu_102_p3" SOURCE="source/led_control.cpp:10" VARIABLE="select_ln10" MODULE="led_control" LOOP="VITIS_LOOP_8_1" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0"/>
+</BindInfo>

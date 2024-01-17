@@ -1,0 +1,45 @@
+INFO: [HLS 200-10] Running '/home/alinx/Xilinx/Vitis_HLS/2023.1/bin/unwrapped/lnx64.o/vitis_hls'
+INFO: [HLS 200-10] For user 'alinx' on host 'alinx-System-Product-Name' (Linux_x86_64 version 5.4.0-164-generic) on Thu Nov 16 16:10:01 CST 2023
+INFO: [HLS 200-10] On os Ubuntu 20.04.6 LTS
+INFO: [HLS 200-10] In directory '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control'
+Sourcing Tcl script '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project led_control 
+INFO: [HLS 200-10] Opening project '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control'.
+INFO: [HLS 200-1510] Running: set_top led_control 
+INFO: [HLS 200-1510] Running: add_files source/led_control.cpp 
+INFO: [HLS 200-10] Adding design file 'source/led_control.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-2'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-2 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./led_control/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name led_control led_control 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Sourcing tcl script '/home/alinx/Xilinx/Vivado/2023.1/scripts/Vivado_init.tcl'
+445 Beta devices matching pattern found, 56 enabled.
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/alinx/Xilinx/Vivado/2023.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 16 16:10:10 2023...
+INFO: [HLS 200-802] Generated output file led_control/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 7.89 seconds. CPU system time: 0.56 seconds. Elapsed time: 10.94 seconds; current allocated memory: 6.566 MB.
+INFO: [HLS 200-112] Total CPU user time: 9.69 seconds. Total CPU system time: 0.89 seconds. Total elapsed time: 13 seconds; peak allocated memory: 1.344 GB.

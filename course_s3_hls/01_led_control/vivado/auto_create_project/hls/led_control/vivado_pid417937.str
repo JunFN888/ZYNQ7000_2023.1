@@ -1,0 +1,539 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:04:56 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 417937
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Nov 16 14:01:30 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.4.0-164-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: localhost:11.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	/home/alinx/Xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7
+Java executable: 	/home/alinx/Xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	alinx
+User home directory: /home/alinx
+User working directory: /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/alinx/Xilinx/Vivado
+HDI_APPROOT: /home/alinx/Xilinx/Vivado/2023.1
+RDI_DATADIR: /home/alinx/Xilinx/SharedData/2023.1/data:/home/alinx/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: /home/alinx/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: /home/alinx/.Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: /home/alinx/.Xilinx/Vivado/2023.1/
+Vivado layouts directory: /home/alinx/.Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	/home/alinx/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/vivado.log
+Vivado journal file: 	/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-417937-alinx-System-Product-Name
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /home/alinx/Xilinx/Vivado/2023.1
+RDI_BASEROOT: /home/alinx/Xilinx/Vivado
+RDI_BINROOT: /home/alinx/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/alinx/Xilinx/SharedData/2023.1/data:/home/alinx/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: /home/alinx/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: /home/alinx/Xilinx/Vivado/2023.1/lib/lnx64.o/Ubuntu/20:/home/alinx/Xilinx/Vivado/2023.1/lib/lnx64.o/Ubuntu:/home/alinx/Xilinx/Vivado/2023.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/alinx/Xilinx/Vitis/2023.1/bin:/home/alinx/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/alinx/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control:alinx-System-Product-Name_1700114469_417897
+RDI_SHARED_DATA: /home/alinx/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: /home/alinx/Xilinx/Vivado/2023.1/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /home/alinx/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: /home/alinx/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: /home/alinx/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: /home/alinx/Xilinx/Vivado/2023.1
+XILINX_SDK: /home/alinx/Xilinx/Vitis/2023.1
+XILINX_VITIS: /home/alinx/Xilinx/Vitis/2023.1
+XILINX_VIVADO: /home/alinx/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: /home/alinx/Xilinx/Vivado/2023.1
+
+
+GUI allocated memory:	868 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 2,975 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: BOARD_CATALOG_MODIFIED
+// Tcl Message: start_gui 
+// Tcl Message: Sourcing tcl script '/home/alinx/Xilinx/Vivado/2023.1/scripts/Vivado_init.tcl' 445 Beta devices matching pattern found, 56 enabled. 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,014 MB. GUI used memory: 68 MB. Current time: 11/16/23, 2:01:31 PM CST
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // u
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // r
+// Elapsed time: 16 seconds
+setFolderChooser("/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado");
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "led_control", true); // Q
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+// [GUI Memory]: 120 MB (+122832kb) [00:02:02]
+// [Engine Memory]: 2,645 MB (+2622036kb) [00:02:02]
+// [GUI Memory]: 126 MB (+1041kb) [00:02:02]
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 13 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7vx415tffv1927-2L ; 1927 ; 600 ; 257600 ; 515200 ; 880 ; 0 ; 2160 ;  ; 32 ;  ; 0 ; 0 ; 48 ; 0 ; 0 ; 48 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 2 ; 12 ;  ;  ;  ;  ; 0 ;  ;  ; 0 ; 100 ; 100 ; E ; 0.97 ; 0.97 ; 1.03", 743, "600", 2); // c
+// Elapsed time: 169 seconds
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Zynq UltraScale+ MPSoCs", 39); // a.a
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Zynq-7000", 38); // a.a
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7z010clg400-2 ; 400 ; 100 ; 17600 ; 35200 ; 60 ; 0 ; 80 ;  ; 32 ;  ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 2 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 8, "xc7z010clg400-2", 0); // c
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 143 MB (+10977kb) [00:05:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  1049 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project led_control /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado -part xc7z010clg400-2 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/alinx/Xilinx/Vivado/2023.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 2,777 MB (+95kb) [00:05:26]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 235 seconds
+dismissDialog("Create Project"); // bq
+dismissDialog("New Project"); // f
+// [GUI Memory]: 154 MB (+3835kb) [00:05:30]
+// Elapsed time: 105 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "settings"); // B
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl (Dont Echo) Command: 'rdi::info_commands {device::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {debug::*}'
+// Tcl (Dont Echo) Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  1184 ms.
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 7); // s
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 8, false); // s
+// Elapsed time: 17 seconds
+dismissDialog("Settings"); // d
+// [GUI Memory]: 188 MB (+27752kb) [00:08:01]
+// Elapsed time: 67 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "settings"); // B
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B
+dismissFolderChooser();
+// Elapsed time: 185 seconds
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B
+// Elapsed time: 17 seconds
+setFolderChooser("/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado'. 
+expandTree(RDIResource.AddRepositoryInfoDialog_REPOSITORY_TREE, "[root, /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado, <html>IPs<span style='color: rgb(128, 128, 128)'>&nbsp;(1)</span></html>]", 1); // a
+selectTree(RDIResource.AddRepositoryInfoDialog_REPOSITORY_TREE, "[root, /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado, <html>IPs<span style='color: rgb(128, 128, 128)'>&nbsp;(1)</span></html>, Led_control (xilinx.com:hls:led_control:1.0)]", 2, false); // a
+// Elapsed time: 117 seconds
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a
+dismissDialog("Add Repository"); // b
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+// [Engine Memory]: 3,020 MB (+108793kb) [00:14:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,045 MB. GUI used memory: 93 MB. Current time: 11/16/23, 2:15:36 PM CST
+// Elapsed time: 123 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "design_1"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Block Design"); // ax
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// Tcl Message: create_bd_design "design_1" 
+// Tcl Message: Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd>  
+dismissDialog("Create Block Design"); // bq
+// Elapsed Time for: 'L.f': 10m:58s
+// Elapsed Time for: 'L.f': 11m:00s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 101 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, (String) null); // B
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "led"); // OverlayTextField
+// Elapsed time: 80 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "led"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Led_control", 0, "Led_control", 0, false); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Led_control", 0, "Led_control", 0, false, false, false, false, false, true); // z - Double Click
+// TclEventType: LOAD_FEATURE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:hls:led_control:1.0 led_control_0 
+// Tcl Message: endgroup 
+// Elapsed Time for: 'L.f': 14m:04s
+// Elapsed Time for: 'L.f': 14m:06s
+// Elapsed time: 163 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 233, 198, 1192, 544, false, false, false, true, false); // fQ - Popup Trigger
+// Elapsed time: 584 seconds
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ao
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cons"); // OverlayTextField
+// Elapsed time: 91 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cons"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Constant", 0, "Constant", 0, false); // z
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Constant", 0); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Constant", 0, "Constant", 0, false, false, false, false, false, true); // z - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0 
+// Tcl Message: endgroup 
+// Elapsed Time for: 'L.f': 28m:08s
+// Elapsed Time for: 'L.f': 28m:10s
+// Tcl Command: 'set_property location {0.5 10 -194} [get_bd_cells xlconstant_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {0.5 10 -194} [get_bd_cells xlconstant_0] 
+// Tcl Command: 'set_property location {1 22 -174} [get_bd_cells xlconstant_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 22 -174} [get_bd_cells xlconstant_0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins led_control_0/ap_rst] 
+// Elapsed time: 445 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Tcl Command: 'set_property location {0.5 -29 27} [get_bd_cells xlconstant_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {0.5 -29 27} [get_bd_cells xlconstant_0] 
+// Tcl Command: 'set_property location {1.5 28 16} [get_bd_cells xlconstant_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 28 16} [get_bd_cells xlconstant_0] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// Elapsed time: 71 seconds
+setText("Const Val", "0"); // v
+// Elapsed time: 74 seconds
+setText("Const Width", "1"); // v
+dismissDialog("Re-customize IP"); // m
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "ap_clk", true); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Port"); // aO
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir I -type clk -freq_hz 100000000 ap_clk 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /led_control_0/ap_clk] [get_bd_ports ap_clk] 
+// Tcl Message: endgroup 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 34 seconds
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "led", true); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Port"); // aO
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O -from 0 -to 0 -type data led 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /led_control_0/led] [get_bd_ports led] 
+// Tcl Message: endgroup 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,901 MB. GUI used memory: 100 MB. Current time: 11/16/23, 2:45:37 PM CST
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets led_control_0_led] [get_bd_ports led] 
+// Elapsed time: 110 seconds
+setText(PAResourceAtoD.CreateRSBPortDialog_PORT_NAME, "led"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Port"); // aO
+// Tcl Message: startgroup 
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: create_bd_port -dir O -from 0 -to 0 -type data led 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins /led_control_0/led] [get_bd_ports led] 
+// Tcl Message: endgroup 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 625 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // B
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Elapsed Time for: 'L.f': 51m:02s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // f
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// Elapsed Time for: 'L.f': 51m:04s
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: generate_target all [get_files  /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/synth/design_1.v Verilog Output written to : /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block led_control_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . 
+// Tcl Message: Exporting to file /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Hardware Definition File /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_led_control_0_0] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_led_control_0_0 
+// Tcl Message: export_ip_user_files -of_objects [get_files /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd] 
+// Tcl Message: launch_runs design_1_led_control_0_0_synth_1 -jobs 16 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_led_control_0_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Nov 16 14:57:50 2023] Launched design_1_led_control_0_0_synth_1... Run output will be captured here: /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.runs/design_1_led_control_0_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,165 MB. GUI used memory: 102 MB. Current time: 11/16/23, 2:57:52 PM CST
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  4283 ms.
+// 'bv' command handler elapsed time: 1084 seconds
+// Elapsed time: 1082 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed Time for: 'L.f': 01h:09m:08s
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // E - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 1, true, false, false, false, true, false); // E - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al
+// HMemoryUtils.trashcanNow. Engine heap size: 3,139 MB. GUI used memory: 94 MB. Current time: 11/16/23, 3:27:52 PM CST
+// Elapsed time: 1891 seconds
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// Elapsed time: 280 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'ae' command handler elapsed time: 280 seconds
+dismissDialog("Create HDL Wrapper"); // a
+// Tcl Message: make_wrapper -files [get_files /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd] -top 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Elapsed Time for: 'L.f': 01h:45m:32s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // f
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// HMemoryUtils.trashcanNow. Engine heap size: 3,173 MB. GUI used memory: 96 MB. Current time: 11/16/23, 3:52:17 PM CST
+// Elapsed Time for: 'L.f': 01h:45m:34s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 01h:45m:36s
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a
+// [Engine Memory]: 3,179 MB (+8589kb) [01:51:04]
+// Elapsed Time for: 'L.f': 01h:45m:38s
+// Elapsed time: 71 seconds
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 125 seconds
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a
+// Tcl Command: 'file mkdir /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1'
+// Tcl Message: file mkdir /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1 
+// Elapsed time: 68 seconds
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "pinset"); // Q
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Constraints File"); // u
+selectButton("FINISH", "Finish"); // JButton
+// 'f' command handler elapsed time: 271 seconds
+// Tcl Command: 'file mkdir /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1/new'
+dismissDialog("Add Sources"); // c
+// Tcl Message: file mkdir /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1/new 
+// Tcl Message: close [ open /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1/new/pinset.xdc w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 /media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/constrs_1/new/pinset.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true, false, false, false, false, true); // E - Double Click - Node
+// Elapsed time: 813 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // g
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado'. 
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // bq
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:led_control:1.0 [get_ips  design_1_led_control_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_led_control_0_0 (Led_control 1.0) from revision 2113298152 to revision 2113298290 
+// Tcl Message: Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/led_control.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_led_control_0_0] -no_script -sync -force -quiet 
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed Time for: 'L.f': 02h:03m:46s
+// Elapsed Time for: 'L.f': 02h:03m:48s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,230 MB. GUI used memory: 96 MB. Current time: 11/16/23, 4:10:32 PM CST
+dismissDialog("Generate Output Products"); // W
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 408, 179, 1192, 544, false, false, false, true, false); // fQ - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ao
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cons"); // OverlayTextField
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // z
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_1 
+// Tcl Message: endgroup 
+// Elapsed Time for: 'L.f': 02h:04m:10s
+// Elapsed Time for: 'L.f': 02h:04m:12s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,248 MB. GUI used memory: 94 MB. Current time: 11/16/23, 4:10:57 PM CST
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins xlconstant_1/dout] [get_bd_pins led_control_0/ap_start] 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 1579 seconds
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // g
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  

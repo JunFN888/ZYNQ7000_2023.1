@@ -1,0 +1,15 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/csynth.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="led_control" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=led_control" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/alinx/nvme4t/yang/course_s3_tcl/ax7010/01_led_control/vivado/auto_create_project/hls/led_control/led_control/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="led_control" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=led_control" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="source/led_control.cpp:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="led_control" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=led" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="source/led_control.cpp:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="led_control" ARG_PragmaIsValid="1" ARG_PragmaOptions="mode=ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
